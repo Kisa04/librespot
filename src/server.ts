@@ -3,7 +3,7 @@ import Librespot from './index.js'
 
 const spotify = new Librespot()
 
-let a = spotify.login("danielmendes004+spotify@gmail.com", "danny_jmendes")
+
 
 console.log(a)
 
