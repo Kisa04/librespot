@@ -2,7 +2,7 @@
 	"name": "librespot",
 	"version": "0.1.5",
 	"description": "A FOSS Spotify library.",
-	"main": "build/index.js",
+	"main": "build/server.mjs",
 	"types": "build/index.d.ts",
 	"type": "module",
 	"files": [
