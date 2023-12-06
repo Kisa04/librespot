@@ -3,9 +3,13 @@ import Librespot from 'librespot'
 
 const spotify = new Librespot()
 
-await spotify.login("username", "password")
+let a = await spotify.login("danielmendes004+spotify@gmail.com", "danny_jmendes")
+
+console.log(a)
 
 const track = await spotify.get.track('1p80LdxRV74UKvL8gnD7ky')
+
+console.log(track)
 
 await fs.promises.writeFile('example.ogg', track.stream)
 
